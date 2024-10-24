@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ParthaSarathiDas2209/reactTO-DO/static/css/main.900099a6.css",
+    "main.js": "/ParthaSarathiDas2209/reactTO-DO/static/js/main.f18e9326.js",
+    "static/js/453.37753ddd.chunk.js": "/ParthaSarathiDas2209/reactTO-DO/static/js/453.37753ddd.chunk.js",
+    "index.html": "/ParthaSarathiDas2209/reactTO-DO/index.html",
+    "main.900099a6.css.map": "/ParthaSarathiDas2209/reactTO-DO/static/css/main.900099a6.css.map",
+    "main.f18e9326.js.map": "/ParthaSarathiDas2209/reactTO-DO/static/js/main.f18e9326.js.map",
+    "453.37753ddd.chunk.js.map": "/ParthaSarathiDas2209/reactTO-DO/static/js/453.37753ddd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.900099a6.css",
+    "static/js/main.f18e9326.js"
+  ]
+}
