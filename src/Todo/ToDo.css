@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+   body,html{
+    font-size: 120%;
+  }
+  
+  
+  .todo-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    padding-top: 2%;
+    /* background: #350802; */
+    color: #6b1008;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+  }
+  
+  section h1 {
+    color: rgb(221, 158, 40);
+    font-size: 3rem;   
+    /* Adjusted for better readability on laptops */
+    text-align: center;
+  }
+  
+  .date-time {
+    font-size: 2rem; /* Adjusted for better readability on laptops */
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    font-size: 1.6rem; /* Adjusted for better readability */
+    justify-content: center;
+    margin: 7px 0;
+    padding: 0.7rem;
+    width: 100%;
+  }
+  
+  form input {
+    padding: 10px;
+    font-size: 1.6rem;
+    /*Adjustedforbetterreadability*/
+    letter-spacing: 0.1rem;
+    border: none;
+    outline: none;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    transition: background-color 200ms ease-in-out;
+    width: 100%;
+    background-color: #c8c9c9;
+    color: var(--primary-color);
+    -webkit-transition: background-color 200ms ease-in-out;
+    -moz-transition: background-color 200ms ease-in-out;
+    -ms-transition: background-color 200ms ease-in-out;
+    -o-transition: background-color 200ms ease-in-out;
+  }
+  
+  form input:hover {
+    cursor: text;
+  }
+  
+  form input::placeholder {
+    color: rgb(115, 32, 32);
+    opacity: 0.7;
+  }
+  
+  button {
+    border: none;
+    outline: none;
+    transition: box-shadow 200ms ease, background-color 200ms ease-in-out;
+    background-color: #75add2;
+    /*Adjustedforconsistency*/color: var(--secondary-color);
+    padding: 10px;
+    font-size: 1.6rem;
+    /*Adjustedforbetterreadability*/border-radius: 0 15px 15px 0;
+    min-width: 100px;
+    -webkit-border-radius: 0 15px 15px 0;
+    -moz-border-radius: 0 15px 15px 0;
+    -ms-border-radius: 0 15px 15px 0;
+    -o-border-radius: 0 15px 15px 0;
+  }
+  
+  form button:hover {
+    cursor: pointer;
+    background-color: #f1c40f;
+  }
+  
+  .myUnOrdList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+  }
+  
+  .todo-list {
+    min-width: 25%;
+    list-style: none;
+  }
+  
+  .todo-item {
+    margin: .2rem;
+    font-size: 1.8rem;
+    /*Adjustedforbetterreadability*/color: #1c2833;
+    border-radius:10px;
+    transition: background-color 200ms ease-in-out;
+    background-color: #60a9f1;
+    min-width: 1rem;
+    max-width: rem;
+    padding: .5rem .5rem;
+    display: grid;
+    grid-template-columns: 1fr 0.3fr 0.3fr;
+    justify-content: start;
+    gap: .5rem;
+    overflow-wrap: anywhere;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+  }
+  
+  li span {
+    max-width: 20rem;
+    color: #0e1b28;
+  }
+  
+  .check-btn,
+  .delete-btn {
+    font-size: 1.5rem;
+    /*Adjustedforbetterusability*/
+    cursor: pointer;
+    width: 2rem;
+    height: 3rem;
+    border-radius: 70%;
+    margin: 0 5px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  .check-btn {
+    background-color: #2ecc71;
+  }
+  
+  .delete-btn {
+    background-color: #ca3e32;
+  }
+  
+  .checkList {
+    text-decoration: line-through;
+  }
+  
+  .notCheckList {
+    text-decoration: none;
+  }
+  
+  .clear-btn {
+    background-color: #cf6359;
+    font-size: 1.6rem;
+    /*Adjustedforbetterreadability*/
+    padding: 1rem 2.0rem;
+    border-radius: 0.3rem;
+  }
+  
+  .clear-btn:hover {
+    background-color: #350802;
+  }
